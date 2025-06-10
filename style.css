@@ -1,0 +1,82 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    background-color: green;
+    font-family: Arial, sans-serif;
+    color: white;
+    text-align: center;
+    transition: background 0.5s;
+}
+
+/* Header styles */
+header {
+    padding: 20px;
+    background-color: #333;
+}
+
+h1 {
+    color: skyblue;
+}
+
+/* Navigation bar */
+nav {
+    margin-top: 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 8px 15px;
+}
+
+nav a:hover {
+    color: yellow;
+}
+
+/* Marquee styles */
+marquee {
+    font-size: 20px;
+    color: chocolate;
+    font-weight: bold;
+}
+
+/* Section content */
+section {
+    padding: 20px;
+    text-align: justify;
+    max-width: 800px;
+    margin: auto;
+}
+
+/* Image styles */
+.tourism-img {
+    width: 100%;
+    max-width: 1500px;
+    height: 250px;
+    display: block;
+    margin: 20px auto;
+    border-radius: 10px;
+}
+
+/* Button Styles */
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    background-color: chocolate;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+button:hover {
+    background-color: darkred;
+}
